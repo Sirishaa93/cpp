@@ -11,3 +11,8 @@ namespace Physics {
         return a + b;
     }
 }
+int main() {
+    cout << "Sum using Math namespace: " << Math::add(5, 10) << endl;
+    cout << "Sum using Physics namespace: " << Physics::add(12.5, 7.5) << endl;
+    return 0;
+}
